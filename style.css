@@ -1,0 +1,212 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fcf9f4;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 14vw;
+  text-align: center;
+  line-height: calc(100vh - 24px);
+  height: calc(100vh - 24px);
+  width: calc(100vw - 12px);
+}
+
+h2 {
+  line-height: calc(25vh - 24px);
+  font-size: 2rem;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0 2%;
+}
+
+.profile-image {
+  max-width: 360px;
+  width: calc(100vw - 12px);
+  float: left;
+  margin-right: 18px;
+}
+
+img {
+  max-width: 220px;
+  width: 90%;
+}
+
+.projects img {
+  margin-bottom: 12px;
+}
+
+.projects img:hover {
+  transform: scale(1.1);
+}
+
+.capstone-img {
+  max-width: 480px;
+}
+
+.capstone {
+  margin-bottom: 48px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0 0 18px 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  margin: -1%;
+  padding: auto 10px;
+}
+
+.separate {
+  margin: 0 3px 0 9px;
+}
+
+.about-link {
+  color: #fcf9f4;
+  font-size: .5vw;
+}
+
+.project-links,
+.item>p {
+  text-align: center;
+}
+
+label,
+button {
+  display: block;
+  margin-top: 18px;
+}
+
+input,
+textarea,
+button {
+  width: 90%;
+  border: none;
+}
+
+button {
+  border-radius: 10px;
+  background-color: black;
+  font-size: 24px;
+  color: #fcf9f4;
+}
+
+button:hover {
+  color: black;
+  background-color: #fcf9f4;
+}
+
+.letter:hover,
+li:hover,
+.last-name:hover,
+a:hover,
+.social p:hover {
+  cursor: crosshair;
+  background-color: black;
+  color: #fcf9f4;
+}
+
+.arrow {
+  color: black;
+  margin-left: 6px;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form {
+  float: none;
+}
+
+.social {
+  width: 50%;
+  float: none;
+}
+
+.fab {
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+@media all and (min-width: 480px) {
+  .item {
+    padding: 0 48px;
+  }
+
+  .social {
+    float: right;
+  }
+
+  .form {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media all and (min-width:225px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  li {
+    display: inline;
+  }
+
+  .item {
+    width: auto;
+  }
+
+  .side img {
+    width: 220px;
+    height: 180px;
+  }
+
+  .group {
+    width: 90%;
+    margin: auto;
+  }
+
+  input,
+  textarea,
+  button {
+    max-width: 480px;
+    border: none;
+  }
+}
